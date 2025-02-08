@@ -1,3 +1,9 @@
 venv
+# Ignore all .txt files
 *.txt
+
+# But do not ignore requirements.txt
+!requirements.txt
+
+# Ignore all .mp4 files
 *.mp4
